@@ -58,16 +58,16 @@
       </div>
 
       <div class="visuel-plats">
-        <div>
+        <div class="visuel">
           <img src="./images/Modern Style.png" alt="photo d'une pizza" />
         </div>
-        <div>
+        <div class="visuel">
           <img src="./images/Image.png" alt="plat Restaurant" />
         </div>
-        <div>
+        <div class="visuel">
           <img src="./images/Image (1).png" alt="hamburger" />
         </div>
-        <div>
+        <div class="visuel">
           <img src="./images/Calque 5.png" alt="plat saumon epinard" />
         </div>
       </div>
@@ -168,6 +168,71 @@
                     </div>
                 </div>
             </div>
+            <div class="formulaire">
+                <figure>
+                    <img src="./images/Bitmap.png"/>
+                </figure>
+                <form>
+                    <div>
+                      <label for="name">Nom :</label>
+                      <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div>
+                      <label for="email">Email :</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div>
+                      <label for="address">Adresse :</label>
+                      <input type="text" id="address" name="address" required>
+                    </div>
+                    
+                    <div>
+                      <label for="service">Service :</label>
+                      <select id="service" name="service" required>
+                        <option value="">Sélectionnez un service</option>
+                        <option value="service1">Service 1</option>
+                        <option value="service2">Service 2</option>
+                        <option value="service3">Service 3</option>
+                      </select>
+                    </div>
+                    
+                    <div>
+                      <label for="phone">Numéro de téléphone :</label>
+                      <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div>
+                      <label for="date">Date :</label>
+                      <input type="date" id="date" name="date" required>
+                    </div>
+                    
+                    <div>
+                      <label for="time">Heure :</label>
+                      <input type="time" id="time" name="time" required>
+                    </div>
+                    
+                    <div>
+                      <label for="note">Votre message :</label>
+                      <textarea id="note" name="note" rows="4" required></textarea>
+                    </div>
+                    
+                    <button class="btn-vert-rond" type="submit">Valider</button>
+                  </form>
+            </div>
     </main>
+    <footer>
+        <nav>
+            <a href="#">Resto</a>
+            <a href="#">Welcome</a>
+            <a href="#">Specialties</a>
+            <a href="#">menu</a>
+            <a href="#">Reservation</a>
+        </nav>
+        <div class="reseaux">
+
+        </div>
+    </footer>
   </body>
 </html>

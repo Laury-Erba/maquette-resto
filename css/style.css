@@ -35,6 +35,9 @@ nav a {
     color: #6a777c;
     padding-right: 10px;
 }
+nav a:hover{
+    color: #11682c;
+}
 span{
     color: 11682c;
 }
@@ -80,9 +83,10 @@ span{
     display: flex;
     flex-wrap: wrap;
     margin-top: 65px;
+    justify-content: space-between;
 }
-.visuel-plats > figure{
-    width: 18%;
+.visuel{
+    width: 23%;
 }
 section{
     display: flex;
@@ -130,4 +134,12 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 60px;
+}
+.formulaire{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #fff9f8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
